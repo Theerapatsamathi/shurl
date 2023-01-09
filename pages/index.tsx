@@ -45,7 +45,17 @@ export default function Home() {
 
           </div>
           {loading && <p>Loading . . .</p>}
-          {success && <p>URL has been shortened</p>}
+          {success && (<p>URL has been shortened. Go to {" "}
+            <a
+             href={`https://shortenurls.vercel.app/${url_hash}`}
+              target='_blank'
+               // eslint-disable-next-line react/no-string-refs
+               ref='noreferrer' rel="noreferrer"
+            >
+              {`https://shortenurls.vercel.app/${url_hash}`}
+            </a>
+            </p>
+            )}
           {error && <p>Something Went Wrong</p>}
         </main>
       </div>

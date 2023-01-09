@@ -49,8 +49,7 @@ export default function Home() {
             <a
              href={`https://shortenurls.vercel.app/${url_hash}`}
               target='_blank'
-               // eslint-disable-next-line react/no-string-refs
-               ref='noreferrer' rel="noreferrer"
+              rel="noreferrer"
             >
               {`https://shortenurls.vercel.app/${url_hash}`}
             </a>

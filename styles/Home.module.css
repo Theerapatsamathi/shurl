@@ -6,7 +6,28 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.main  input {
+  padding: 10px 80px;
+  font-size: medium;
+  margin: 25px;
+}
+.main button {
+  font-size: medium;
+  padding: 15px 45px;
+  background-color: rgba(177, 166, 252, 0.699);
+  border-radius: 4px;
+  border: none;
+ 
+}
 
+.main button:hover {
+  font-size: medium;
+  padding: 15px 45px;
+  background-color: rgb(145, 129, 245);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
 .description {
   display: inherit;
   justify-content: inherit;
